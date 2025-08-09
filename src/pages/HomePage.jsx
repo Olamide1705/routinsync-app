@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <>
-    <div className='md:hidden flex items-center justify-center min-h-screen'>
-  <div className='relative bg-[rgb(0,128,128)] border-4 border-black rounded-[30px] flex flex-col items-center justify-center min-h-screen md:max-w-xl  w-full max-w-[700px] mx-auto overflow-hidden'>
+    <div className='md:hidden flex items-center justify-center h-screen overflow-hidden'>
+  <div className='relative bg-[rgb(0,128,128)] border-4 border-black rounded-[30px] flex flex-col items-center justify-center md:max-w-xl h-full w-full max-w-[700px] mx-auto overflow-hidden'>
   <span className='absolute top-0 right-0 w-[320px] h-[400px] bg-black rounded-full translate-x-1/2 -translate-y-1/2 z-10'></span>
   <span className='absolute bottom-0 left-0 w-[180px] h-[150px] bg-[rgb(160,229,229)] rounded-full -translate-x-1/2 translate-y-1/2 z-10'></span>
   <span className='absolute bottom-0 right-0 w-[250px] h-[250px] bg-[rgb(255,208,102)] rounded-full translate-x-1/2 translate-y-1/2 z-10'></span>
