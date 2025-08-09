@@ -24,7 +24,8 @@ const HomePage = () => {
     </Link>
   </div>
 </div>
-<div className="flex items-center justify-center min-h-screen overflow-hidden bg-[rgb(0,128,128)] relative">
+
+<div className="hidden md:flex items-center justify-center min-h-screen overflow-hidden bg-[rgb(0,128,128)] relative">
   {/* Background circles */}
   <span className="absolute top-0 right-0 w-[320px] h-[400px] bg-black rounded-full translate-x-1/2 -translate-y-1/2 z-0"></span>
   <span className="absolute bottom-0 left-0 w-[180px] h-[150px] bg-[rgb(160,229,229)] rounded-full -translate-x-1/2 translate-y-1/2 z-0"></span>
