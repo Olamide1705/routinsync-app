@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+body {
+  .font-Road {
+    font-family: "Road Rage";
+  }
+  .font-Roboto {
+    font-family: "Roboto";
+  }
+}
+html,
+body,
+#root {
+  height: 100%;
+}
